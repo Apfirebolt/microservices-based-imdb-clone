@@ -1,0 +1,42 @@
+# Global
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+*.pyc
+__pycache__/
+*.sqlite3
+*.db
+*.pkl
+
+# Python (Auth Service)
+auth/venv/
+auth/.venv/
+auth/__pycache__/
+auth/*.pyc
+auth/.pytest_cache/
+auth/.mypy_cache/
+auth/.coverage
+auth/.env
+auth/.env.*
+
+# Express (Movies Service)
+movies/node_modules/
+movies/.env
+movies/.env.*
+
+# Vue Client
+client/node_modules/
+client/dist/
+client/.env
+client/.env.*
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+*.swo
+.idea/
+*.iml
