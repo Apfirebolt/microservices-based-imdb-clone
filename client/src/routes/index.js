@@ -20,6 +20,11 @@ const routes = [
         component: () => import('../screens/Register.vue')
     },
     {
+        path: '/movies',
+        name: 'Movie',
+        component: () => import('../screens/Movie.vue')
+    },
+    {
         path: '/:catchAll(.*)',
         name: 'NotFound',
         component: NotFound
